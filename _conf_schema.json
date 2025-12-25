@@ -1,0 +1,26 @@
+{
+  "mosaic_level": {
+    "description": "封面打码程度 (0-100)，数值越大打码越严重",
+    "type": "int",
+    "default": 50,
+    "minimum": 0,
+    "maximum": 100
+  },
+  "max_results": {
+    "description": "搜索结果最大数量",
+    "type": "int",
+    "default": 5,
+    "minimum": 1,
+    "maximum": 20
+  },
+  "enable_mosaic": {
+    "description": "是否启用封面打码",
+    "type": "bool",
+    "default": true
+  },
+  "proxy": {
+    "description": "代理服务器地址 (例如: http://127.0.0.1:7890 或 socks5://127.0.0.1:1080)",
+    "type": "string",
+    "default": ""
+  }
+}
